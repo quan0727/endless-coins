@@ -1,17 +1,23 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>金币不要停！Endless Coins</title>
   <style>
-    body { margin: 0; background: #111; overflow: hidden; }
-    canvas { display: block; margin: auto; background: #222; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      overflow: hidden;
+    }
+    canvas {
+      display: block;
+    }
   </style>
 </head>
 <body>
+  <canvas id="gameCanvas"></canvas>
   <script src="main.js"></script>
-  <button onclick="onLevelComplete()" style="position:fixed;top:10px;right:10px;padding:10px;">完成关卡</button>
 </body>
 </html>
